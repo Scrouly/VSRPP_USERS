@@ -71,7 +71,10 @@ nav {
   padding: 8% 0 0;
   text-align: center;
 }
-
+td {
+  font-size: 13px;
+  padding: 0% 2% 0%;
+}
 .login-page {
   width: 360px;
   padding: 6% 0 6%;
@@ -91,7 +94,6 @@ nav {
 }
 .add-form {
   margin: 0 auto 15px;
-  text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
