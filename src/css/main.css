@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital,wght@1,300&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito', sans-serif;
+}
+body {
+  background-color: rgb(73, 73, 73);
+  color: rgb(255, 255, 255);
+}
+
+.user {
+  margin-bottom: 50px;
+  background-color: rgb(110, 110, 110);
+  padding: 20px;
+}
+.header button,
+.header {
+  background-color: rgb(22, 22, 22);
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  border: 0ch;
+}
+.delete-icon {
+  float: right;
+}
+.delete-icon:hover {
+  opacity: 0.5;
+  transform: scale(1.4);
+}
+
+.login-page button,
+.login-page input,
+.login-page textarea,
+div form input,
+div form button,
+div form textarea {
+  background-color: rgb(73, 73, 73);
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: 0ch;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.login-page button:hover,
+div form button:hover {
+  transform: scale(1.4);
+}
+
+.header button:hover {
+  transform: scale(1.1);
+}
+nav a {
+  margin: 15px;
+}
+
+nav {
+  background-color: rgb(41, 40, 40);
+}
+
+.active {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.login-form {
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  padding: 8% 0 0;
+  text-align: center;
+}
+
+.login-page {
+  width: 360px;
+  padding: 6% 0 6%;
+  text-align: center;
+  margin: 15px auto 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+:visited {
+  color: rgb(255, 255, 255);
+}
+.user {
+  position: relative;
+  max-width: 999px;
+  margin: 0 auto 35px;
+  padding: 15px;
+}
+.add-form {
+  margin: 0 auto 15px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.mainbox {
+  background-color: rgb(70, 70, 70);
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.err {
+  margin: 100px;
+  color: #ffffff;
+  font-size: 11rem;
+  text-align: center;
+}
+
+.msg {
+  text-align: center;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  width: 75%;
+}

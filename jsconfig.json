@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": [
+    "src",
+    "../Users/src/components/SignUp.jsx",
+    "../Users/src/components/Login.jsx",
+    "../Users/src/firebase.js",
+    "../Users/src/redux/slices",
+    "../Users/src/pages",
+    "../Users/src/hooks"
+  ]
+}
