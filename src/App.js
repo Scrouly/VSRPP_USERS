@@ -12,6 +12,7 @@ import RegisterPage from './pages/RegisterPage'
 
 import { useAuth } from 'hooks/use-auth'
 import { removeUser } from './redux/slices/userSlice'
+import ApiPage from 'pages/ApiPage'
 // class App extends React.Component {
 //   constructor(props) {
 //     super(props)
@@ -183,6 +184,7 @@ const App = () => {
               path="register"
               element={<RegisterPage></RegisterPage>}
             />
+            <Route exact path="api" element={<ApiPage></ApiPage>} />
           </Route>
         </Routes>
       </BrowserRouter>

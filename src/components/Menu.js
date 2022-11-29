@@ -9,6 +9,7 @@ function Menu() {
         </NavLink>
         <NavLink to="login">Login</NavLink>
         <NavLink to="register">Register</NavLink>
+        <NavLink to="api">Api</NavLink>
       </nav>
     </>
   )
