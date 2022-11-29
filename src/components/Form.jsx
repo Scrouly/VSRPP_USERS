@@ -12,7 +12,7 @@ const SignupSchema = Yup.object().shape({
     .required('This field is required'),
 })
 
-const Forma = ({ title, handleClick }) => (
+const Forma = ({ title, handleClick, google }) => (
   <div>
     <Formik
       initialValues={{
@@ -40,6 +40,13 @@ const Forma = ({ title, handleClick }) => (
         </Form>
       )}
     </Formik>
+    {title === 'sign in' ? (
+      <div>
+        <button onClick={() => google()}>Sing in with google</button>
+      </div>
+    ) : (
+      <></>
+    )}
   </div>
 )
 export { Forma }
